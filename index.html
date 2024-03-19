@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Coctelería</title>
+</head>
+<body>
+    <header>
+        <link rel="stylesheet" href="style.css">
+        <nav class="navBar">
+            <div class="links">
+                <ul class="ulLinks">
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#Eventos">Eventos</a></li>
+                    <li><a href="#Locales">Locales</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="random">
+            <div class="divrandom">
+                <h1>¡Descubre nuestra variedad de cocteles!</h1>
+                <img src="cocteldibujo.png" >
+                <div class="ImagenCoctel"></div>
+                <div class="InfoCoctel"></div>
+                <button id="BotonRandom">Coctel aleatorio</button>
+                <button id="botonGuardar">Guardar en favoritos</button>
+            </div>
+            </section>
+        <section id="favoritos">
+            <h1>Cocteles Favoritos</h1>
+            <div class="detalles-container" style="display: none;"></div>
+            <div class="divfavoritos">
+            </div>
+        </section>
+    </main>
+    <script src="logica.js"></script>
+</body>
+</html>
